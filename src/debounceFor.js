@@ -1,4 +1,3 @@
-import {SagaCancellationException} from 'redux-saga';
 import {take, cancel, call, fork} from 'redux-saga/effects';
 import delay from './delay';
 
@@ -11,7 +10,7 @@ import delay from './delay';
  * @param {Array} args
  */
 export default function *debounceFor(pattern, saga, ms, ...args) {
-    function* delayedSaga(input) {
+    function *delayedSaga(input) {
         yield call(delay, ms);
         yield call(saga, input, ...args);
     }

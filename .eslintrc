@@ -1,1 +1,4 @@
 extends: 'madewithlove'
+rules:
+  object-curly-spacing: 0
+  no-constant-condition: 0
