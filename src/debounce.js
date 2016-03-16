@@ -7,6 +7,6 @@ import debounceFor from './debounceFor';
  * @param {Function} handler
  * @param {Array} args
  */
-export default function *debounce(pattern, handler, ...args) {
+export default function debounce(pattern, handler, ...args) {
     return debounceFor(pattern, handler, 500, ...args);
 }
