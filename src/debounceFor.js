@@ -10,9 +10,9 @@ import delay from './delay';
  * @param {Array} args
  */
 export default function *debounceFor(pattern, saga, ms, ...args) {
-    function *delayedSaga(input) {
+    function *delayedSaga(action) {
         yield call(delay, ms);
-        yield call(saga, input, ...args);
+        yield call(saga, action, ...args);
     }
 
     let task;
