@@ -17,11 +17,11 @@ export default function *debounceFor(pattern, saga, ms, ...args) {
 
     let task;
     while (true) {
-        const {input} = yield take(pattern);
+        const action = yield take(pattern);
         if (task) {
             yield cancel(task);
         }
 
-        task = yield fork(delayedSaga, input);
+        task = yield fork(delayedSaga, action);
     }
 }
