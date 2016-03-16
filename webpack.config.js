@@ -15,7 +15,7 @@ var config = {
     output: {
         path: 'dist',
         filename: 'index.js',
-        library: 'MargaretFetcher',
+        library: 'ReduxSagaDebounceEffect',
         libraryTarget: 'umd'
     },
     plugins: [

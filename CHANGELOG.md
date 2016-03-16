@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.3
+### Fixed
+- Fixed UMD library name
+
 ## 0.1.2
 ### Fixed
 - Fixed wrong argument passed to saga
