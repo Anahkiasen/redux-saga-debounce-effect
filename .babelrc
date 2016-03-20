@@ -1,12 +1,3 @@
 {
-  "presets": [
-    "es2015",
-    "stage-0"
-  ],
-  "env": {
-    "production": {
-      "ast": false,
-      "compact": true
-    }
-  }
+  "presets": ["es2015", "stage-0"]
 }
