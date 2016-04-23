@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.2.0
+### Changed
+- Removed `delay` effect as it now ships with `redux-saga`
+
+### Fixed
+- Support for `redux-saga@0.10`
+
 ## 0.1.3
 ### Fixed
 - Fixed UMD library name
