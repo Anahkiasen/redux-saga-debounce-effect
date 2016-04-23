@@ -1,5 +1,5 @@
 import {take, cancel, call, fork} from 'redux-saga/effects';
-import delay from './delay';
+import {delay} from 'redux-saga';
 
 /**
  * Debounce a saga for X milliseconds
