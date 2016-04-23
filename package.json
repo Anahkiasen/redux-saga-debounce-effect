@@ -2,7 +2,7 @@
   "name": "redux-saga-debounce-effect",
   "description": "A debounce effect for redux-saga",
   "main": "dist/index.js",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:madewithlove/redux-saga-debounce-effect.git"
