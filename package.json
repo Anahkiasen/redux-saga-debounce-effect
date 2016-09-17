@@ -18,24 +18,22 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^2.4.0",
+    "eslint": "^3.5.0",
     "eslint-config-madewithlove": "^3.1.1",
-    "expect": "^1.18.0",
+    "jest": "^15.1.1",
     "madewithlove-webpack-config": "^4.0.0",
-    "mocha": "^2.4.5",
     "redux": "^3.5.1",
-    "redux-saga": "^0.10.0",
+    "redux-saga": "^0.11.0",
     "webpack": "^1.12.14"
   },
   "peerDependencies": {
-    "redux-saga": "^0.10.0"
+    "redux-saga": "^0.11.0"
   },
   "scripts": {
     "build": "BABEL_ENV=production webpack --progress",
     "prepublish": "npm run build",
     "postversion": "git push; git push --tags; npm publish",
     "lint": "eslint src",
-    "test": "mocha tests --recursive --compilers js:babel-core/register",
-    "test:watch": "npm run test -- --watch"
+    "test": "jest"
   }
 }

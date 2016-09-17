@@ -1,5 +1,4 @@
 import 'babel-polyfill';
-import expect from 'expect';
 import {createStore, applyMiddleware} from 'redux';
 import createSagaMiddleware from 'redux-saga';
 import {put} from 'redux-saga/effects';

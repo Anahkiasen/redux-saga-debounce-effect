@@ -1,4 +1,6 @@
-extends: 'madewithlove'
-rules:
-  object-curly-spacing: 0
-  no-constant-condition: 0
+{
+	"extends": "madewithlove",
+	"rules": {
+		"no-constant-condition": 0
+	}
+}
