@@ -18,16 +18,17 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "babel-polyfill": "^6.16.0",
     "eslint": "^3.5.0",
-    "eslint-config-madewithlove": "^3.1.1",
-    "jest": "^15.1.1",
-    "madewithlove-webpack-config": "^4.0.0",
+    "eslint-config-madewithlove": "^4.0.1",
+    "jest": "^16.0.1",
+    "madewithlove-webpack-config": "^5.0.0",
     "redux": "^3.5.1",
-    "redux-saga": "^0.11.0",
+    "redux-saga": "^0.12.0",
     "webpack": "^1.12.14"
   },
   "peerDependencies": {
-    "redux-saga": "^0.11.0"
+    "redux-saga": ">=0.11.0"
   },
   "scripts": {
     "build": "BABEL_ENV=production webpack --progress",
